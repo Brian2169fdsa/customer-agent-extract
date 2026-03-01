@@ -1,0 +1,1 @@
+# Placeholder: Long meeting transcript (~5000+ words) for chunking and multi-pass testing
