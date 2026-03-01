@@ -1,3 +1,13 @@
 {
-  "_placeholder": "Pipedrive activity/deal JSON payload for structured input extraction testing"
+  "id": 12345,
+  "type": "call",
+  "subject": "Follow-up call with Sarah Chen — Beta Inc",
+  "note": "Called Sarah to discuss the pilot program status. She confirmed they're happy with the initial results — 30% improvement in processing time. She wants to expand to the full team (25 users) by end of March. Budget needs CFO approval — she'll have an answer by Friday. Main concern is SSO integration with their Okta setup. I offered to do a technical walkthrough next Tuesday. She also mentioned they're evaluating a competitor (didn't name which one) but said our customer support has been a differentiator.",
+  "done": true,
+  "due_date": "2026-02-28",
+  "person_name": "Sarah Chen",
+  "org_name": "Beta Inc",
+  "owner_name": "Brian",
+  "add_time": "2026-02-28T16:30:00Z",
+  "marked_as_done_time": "2026-02-28T16:45:00Z"
 }

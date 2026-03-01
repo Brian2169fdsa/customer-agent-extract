@@ -1,1 +1,23 @@
-# Placeholder: Short meeting transcript (~500 words) for basic extraction testing
+00:00 Brian: Hey Dave, thanks for jumping on. Wanted to check in on where things stand with the Acme Corp rollout.
+
+00:01 Dave: Yeah absolutely. So we've been looking at the numbers and I think we can commit to a Q2 launch. The team is aligned on that.
+
+00:03 Brian: That's great to hear. What about the budget side? Last time we talked there were some concerns.
+
+00:04 Dave: Right, so we've gotten approval for $50,000 for Phase 1. That covers the initial deployment and the first three months of support.
+
+00:06 Brian: Perfect. And on the technical side, any blockers?
+
+00:07 Dave: One concern — our IT team is worried about the API integration timeline. They think it might take longer than the two weeks we estimated. Maybe three to four weeks is more realistic.
+
+00:08 Brian: Okay, good to flag that early. Should we bring in Sarah from our engineering team to help scope that more precisely?
+
+00:09 Dave: That would be really helpful actually. Can we set that up for next week?
+
+00:10 Brian: Absolutely. I'll send over some times. Anything else on your end?
+
+00:10 Dave: One more thing — we'd prefer monthly billing instead of annual. Is that something you can accommodate?
+
+00:11 Brian: Let me check with our finance team but I believe so. I'll confirm by end of week.
+
+00:12 Dave: Great, thanks Brian. Talk soon.

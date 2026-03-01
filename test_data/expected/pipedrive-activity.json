@@ -1,1 +1,80 @@
-{}
+{
+  "success": true,
+  "facts": [
+    {
+      "claim": "Beta Inc pilot program showing 30% improvement in processing time",
+      "category": "Feedback",
+      "relationship": "Beta Inc",
+      "speaker": "Sarah Chen",
+      "timestamp": "activity",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["product", "results"]
+    },
+    {
+      "claim": "Sarah wants to expand to full team of 25 users by end of March",
+      "category": "Commitment",
+      "relationship": "Beta Inc",
+      "speaker": "Sarah Chen",
+      "timestamp": "activity",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["timeline", "expansion"]
+    },
+    {
+      "claim": "Expansion budget needs CFO approval, answer expected by Friday",
+      "category": "Context",
+      "relationship": "Beta Inc",
+      "speaker": "Sarah Chen",
+      "timestamp": "activity",
+      "confidence": "Medium",
+      "sentiment": "Neutral",
+      "tags": ["budget"]
+    },
+    {
+      "claim": "Main concern is SSO integration with their Okta setup",
+      "category": "Concern",
+      "relationship": "Beta Inc",
+      "speaker": "Sarah Chen",
+      "timestamp": "activity",
+      "confidence": "High",
+      "sentiment": "Negative",
+      "tags": ["technical", "integration"]
+    },
+    {
+      "claim": "Brian offered technical walkthrough for Okta SSO next Tuesday",
+      "category": "Commitment",
+      "relationship": "Beta Inc",
+      "speaker": "Brian",
+      "timestamp": "activity",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["technical"]
+    },
+    {
+      "claim": "Beta Inc evaluating a competitor but values our customer support as differentiator",
+      "category": "Context",
+      "relationship": "Beta Inc",
+      "speaker": "Sarah Chen",
+      "timestamp": "activity",
+      "confidence": "Medium",
+      "sentiment": "Urgent",
+      "tags": ["competitive"]
+    }
+  ],
+  "action_items": [
+    {
+      "title": "Schedule Okta SSO technical walkthrough for next Tuesday",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Beta Inc"
+    },
+    {
+      "title": "Follow up on CFO budget approval by Friday",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Beta Inc"
+    }
+  ],
+  "summary": "Follow-up call with Sarah Chen at Beta Inc about pilot program status. Positive results (30% processing improvement) leading to planned expansion to 25 users by end of March, pending CFO budget approval by Friday. Main technical concern is Okta SSO integration. Competitive risk noted — Beta Inc evaluating another vendor but our support is a differentiator."
+}

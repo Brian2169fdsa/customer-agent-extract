@@ -1,1 +1,96 @@
-{}
+{
+  "success": true,
+  "facts": [
+    {
+      "claim": "Dave considers the analytics module at $15,000/year steep compared to competitors",
+      "category": "Concern",
+      "relationship": "Acme Corp",
+      "speaker": "Dave Wilson",
+      "timestamp": "paragraph 2",
+      "confidence": "High",
+      "sentiment": "Negative",
+      "tags": ["pricing", "analytics"]
+    },
+    {
+      "claim": "Acme Corp legal team flagged data retention clause in section 4.2 requiring clear data ownership and deletion process",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave Wilson",
+      "timestamp": "paragraph 3",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["legal", "data"]
+    },
+    {
+      "claim": "Acme Corp targeting April 1 start date for Phase 2",
+      "category": "Milestone",
+      "relationship": "Acme Corp",
+      "speaker": "Dave Wilson",
+      "timestamp": "paragraph 4",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["timeline"]
+    },
+    {
+      "claim": "Brian proposed bundled analytics rate at approximately $12,000/year",
+      "category": "Decision",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "paragraph 2",
+      "confidence": "Medium",
+      "sentiment": "Positive",
+      "tags": ["pricing", "analytics"]
+    },
+    {
+      "claim": "Brian committed to revising section 4.2 with data ownership and 30-day deletion guarantee, sending redline by Wednesday",
+      "category": "Commitment",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "paragraph 3",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["legal", "data"]
+    },
+    {
+      "claim": "Signed contract needed by March 15 to meet April 1 start date",
+      "category": "Milestone",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "paragraph 4",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["timeline", "legal"]
+    },
+    {
+      "claim": "Dave requested a 90-day opt-out clause for the first year",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave Wilson",
+      "timestamp": "paragraph 3",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["legal", "contract"]
+    }
+  ],
+  "action_items": [
+    {
+      "title": "Prepare revised bundled pricing quote for analytics module",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Have legal revise section 4.2 and send redline by Wednesday",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Flag March 15 contract deadline with procurement team",
+      "owner": "Dave Wilson",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    }
+  ],
+  "summary": "Email thread between Brian and Dave Wilson regarding Acme Corp Phase 2 expansion proposal. Dave raised concerns about analytics module pricing ($15K/year) and data retention clause. Brian proposed bundled rate (~$12K) and committed to contract revisions by Wednesday. April 1 target start requires signed contract by March 15. Dave also requested a 90-day opt-out clause."
+}

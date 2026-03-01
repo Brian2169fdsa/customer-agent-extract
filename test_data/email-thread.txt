@@ -1,1 +1,55 @@
-# Placeholder: Email thread with multiple participants for extraction and deduplication testing
+From: dave.wilson@acmecorp.com
+To: brian@cornerstone.com
+Subject: Re: Proposal Review — Phase 2 Expansion
+Date: Mon, 24 Feb 2026 09:15:00 -0500
+
+Brian,
+
+Thanks for sending over the Phase 2 proposal. I've reviewed it with our team and have a few thoughts.
+
+The pricing looks reasonable for the base package, but we'd like to discuss the add-on modules. Specifically, the analytics module at $15,000/year feels steep compared to what we've seen from other vendors. Can we explore a bundled rate?
+
+Also, our legal team flagged the data retention clause in section 4.2. They want to ensure we maintain ownership of all extracted data and that there's a clear deletion process when the contract ends.
+
+Timeline-wise, we're targeting an April 1 start date for Phase 2. Is that feasible on your end?
+
+Best,
+Dave Wilson
+VP of Operations, Acme Corp
+
+---
+
+From: brian@cornerstone.com
+To: dave.wilson@acmecorp.com
+Subject: Re: Proposal Review — Phase 2 Expansion
+Date: Mon, 24 Feb 2026 14:30:00 -0500
+
+Dave,
+
+Great feedback — thanks for the detailed review.
+
+On pricing: I can definitely look at a bundled rate for the analytics module. Let me put together a revised quote that packages the base + analytics + support into a single annual rate. I think we can get it closer to $12,000 for the analytics piece.
+
+On the data retention clause: Absolutely — your data, your rules. I'll have our legal team revise section 4.2 to explicitly state data ownership remains with Acme Corp and include a 30-day deletion guarantee post-contract. I'll send the redline by Wednesday.
+
+April 1 start date works for us. We'll need the signed contract by March 15 to hit that timeline.
+
+Talk soon,
+Brian
+
+---
+
+From: dave.wilson@acmecorp.com
+To: brian@cornerstone.com
+Subject: Re: Proposal Review — Phase 2 Expansion
+Date: Tue, 25 Feb 2026 08:45:00 -0500
+
+Brian,
+
+The bundled rate sounds promising — looking forward to seeing the revised numbers. $12K for analytics would be much more palatable for our budget committee.
+
+March 15 for signed contract is tight but doable. I'll flag it with our procurement team today.
+
+One more thing — can we add a 90-day opt-out clause for the first year? We want the flexibility to evaluate before fully committing to the annual term.
+
+Dave

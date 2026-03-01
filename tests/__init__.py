@@ -1,1 +1,1 @@
-# TODO: Implementation defined in CLAUDE.md
+"""Test suite for the Customer Agent Extraction Service."""

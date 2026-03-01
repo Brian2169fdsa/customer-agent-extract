@@ -1,1 +1,157 @@
-# Placeholder: Long meeting transcript (~5000+ words) for chunking and multi-pass testing
+00:00 Dave: So let me walk through the technical requirements for Phase 2.
+
+00:01 Brian: Go ahead, I have Sarah from engineering on the line too.
+
+00:02 Sarah: Hi Dave, looking forward to understanding the integration needs.
+
+00:04 Dave: Great. First, we need the API to handle at least 1000 requests per second at peak.
+
+00:05 Brian: That aligns with our standard tier. Sarah, can you confirm?
+
+00:06 Sarah: Yes, our infrastructure supports up to 2000 RPS on the enterprise plan.
+
+00:08 Dave: Good. Second concern is around data residency. We need all data stored in US-East.
+
+00:09 Brian: We can accommodate that. We have data centers in Virginia and Ohio.
+
+00:10 Dave: Perfect. Now, the big one — we need custom webhook support for our internal event bus.
+
+00:12 Sarah: We have a standard webhook system. What kind of customization do you need?
+
+00:13 Dave: We need to be able to filter events by type and route them to different endpoints.
+
+00:14 Sarah: That is on our roadmap for Q3. For Phase 2 launch we could do a basic filter.
+
+00:16 Dave: Basic filter would work for now. Can you guarantee delivery?
+
+00:17 Sarah: We use at-least-once delivery with a 72-hour retry window.
+
+00:18 Dave: That works. Our team can handle idempotency on our end.
+
+00:20 Brian: Great. Dave, what about the authentication requirements?
+
+00:21 Dave: We need OAuth 2.0 with PKCE flow. Our security team is strict on this.
+
+00:22 Sarah: Fully supported. We also offer SAML if you need SSO.
+
+00:24 Dave: We will need SAML for SSO eventually, but OAuth is the priority for launch.
+
+00:25 Brian: Makes sense. What about the migration from your current system?
+
+00:26 Dave: That is actually my biggest concern. We have 5 years of historical data.
+
+00:28 Brian: How much data are we talking about?
+
+00:29 Dave: About 2 terabytes. Mostly structured data, some blob storage.
+
+00:30 Sarah: We have a migration toolkit. For 2TB it would take roughly 2-3 weeks.
+
+00:32 Dave: Can we do it in stages? We do not want any downtime during business hours.
+
+00:33 Sarah: Absolutely. We recommend a phased approach: historical data first, then live cutover on a weekend.
+
+00:34 Dave: That sounds reasonable. Who would manage the migration on your side?
+
+00:36 Brian: We have a dedicated migration team. I will assign a project manager.
+
+00:37 Dave: Good. Now let us talk about pricing for all of this.
+
+00:38 Brian: Sure. Based on what we have discussed, I think the enterprise tier makes sense.
+
+00:40 Dave: What is the enterprise tier pricing?
+
+00:41 Brian: It starts at 8500 per month for up to 50 users. Volume discounts kick in at 100 users.
+
+00:42 Dave: We have about 75 users currently, growing to maybe 120 by year end.
+
+00:44 Brian: For 75 users we could do 10000 per month. At 120 users the volume discount brings it to 13500.
+
+00:45 Dave: That is within our budget range. Our CFO approved up to 15000 per month.
+
+00:46 Brian: Great. That gives you room for the add-on modules too.
+
+00:48 Dave: Speaking of which, what add-ons do you recommend?
+
+00:49 Brian: For your use case: the analytics module and the advanced reporting package.
+
+00:50 Sarah: The analytics module integrates with your existing BI tools. It exports to Tableau and PowerBI.
+
+00:52 Dave: We use Tableau extensively. That is a must-have.
+
+00:53 Brian: Analytics module is 3000 per month. Advanced reporting is 1500.
+
+00:54 Dave: So total would be around 14500 per month for 75 users plus both add-ons?
+
+00:56 Brian: Correct. And that includes 24/7 support and a dedicated CSM.
+
+00:57 Dave: That works. I need to run the final numbers by our procurement team but I am confident.
+
+00:58 Brian: When do you think you can get procurement approval?
+
+01:00 Dave: Realistically, two weeks. Our procurement cycle is usually 10 business days.
+
+01:01 Brian: That puts us at mid-March for contract signing.
+
+01:02 Dave: Yes, and we want to start April 1 as we discussed.
+
+01:04 Sarah: April 1 is achievable if we start migration planning in parallel with procurement.
+
+01:05 Brian: I agree. Dave, are you comfortable with us starting the technical assessment now?
+
+01:06 Dave: Absolutely. The sooner the better. Let us not let procurement slow down the technical work.
+
+01:08 Brian: Perfect. Sarah will schedule a technical deep-dive for next week.
+
+01:09 Sarah: I will send a calendar invite by end of day. Dave, who should I include from your team?
+
+01:10 Dave: Include our CTO Mark Johnson and our lead architect Lisa Park.
+
+01:12 Sarah: Got it. I will prepare a technical assessment checklist.
+
+01:13 Brian: Anything else on your mind Dave?
+
+01:14 Dave: Just one more thing. We had an issue with our current vendor around SLA guarantees.
+
+01:16 Brian: What happened?
+
+01:17 Dave: They promised 99.9 percent uptime but actual was around 99.5. Cost us real money.
+
+01:18 Brian: We guarantee 99.95 percent uptime with financial credits if we miss it.
+
+01:20 Dave: Can we get that in the contract with specific credit amounts?
+
+01:21 Brian: Absolutely. Standard clause: 10 percent credit for each 0.1 percent below target per month.
+
+01:22 Dave: That is much better than what we have now. I appreciate the transparency.
+
+01:24 Brian: Of course. Trust is everything in these partnerships.
+
+01:25 Dave: Agreed. One last concern — what happens if we need to terminate early?
+
+01:26 Brian: We offer a 90-day notice period. No early termination fees in the first year.
+
+01:28 Dave: That is very reasonable. Most vendors lock you in for two years minimum.
+
+01:29 Brian: We believe our product keeps customers. Do not need a contract to prove it.
+
+01:30 Dave: I like that attitude. Okay I think we have covered everything.
+
+01:32 Brian: Great meeting Dave. To summarize the next steps.
+
+01:33 Dave: Go ahead.
+
+01:34 Brian: One: Sarah schedules technical deep-dive for next week with Mark and Lisa.
+
+01:36 Brian: Two: I send the revised enterprise proposal with the pricing we discussed.
+
+01:37 Brian: Three: You run numbers through procurement, target two weeks for approval.
+
+01:38 Brian: Four: We start migration planning in parallel.
+
+01:40 Dave: Perfect summary. Let us make this happen.
+
+01:41 Brian: Talk soon Dave. Thanks for your time today.
+
+01:42 Dave: Thanks Brian, thanks Sarah. Talk soon.
+
+01:44 Sarah: Bye Dave, looking forward to the technical session.

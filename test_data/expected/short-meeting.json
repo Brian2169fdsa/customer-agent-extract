@@ -1,1 +1,80 @@
-{}
+{
+  "success": true,
+  "facts": [
+    {
+      "claim": "Dave committed to a Q2 launch for the Acme Corp rollout",
+      "category": "Commitment",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:01",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["timeline", "launch"]
+    },
+    {
+      "claim": "Acme Corp approved $50,000 budget for Phase 1 covering initial deployment and three months of support",
+      "category": "Decision",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:04",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["budget", "pricing"]
+    },
+    {
+      "claim": "IT team concerned API integration may take 3-4 weeks instead of estimated 2 weeks",
+      "category": "Concern",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:07",
+      "confidence": "High",
+      "sentiment": "Negative",
+      "tags": ["technical", "timeline"]
+    },
+    {
+      "claim": "Dave requested a scoping session with Sarah from engineering for next week",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:09",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["technical", "staffing"]
+    },
+    {
+      "claim": "Acme Corp prefers monthly billing instead of annual",
+      "category": "Preference",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:10",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["billing", "pricing"]
+    },
+    {
+      "claim": "Brian committed to confirming monthly billing option by end of week",
+      "category": "Commitment",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "00:11",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["billing"]
+    }
+  ],
+  "action_items": [
+    {
+      "title": "Send available times for scoping session with Sarah and Dave",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Confirm monthly billing option with finance team",
+      "owner": "Brian",
+      "priority": "P2",
+      "relationship": "Acme Corp"
+    }
+  ],
+  "summary": "Brian and Dave discussed the Acme Corp rollout status. Dave confirmed Q2 launch commitment and $50,000 Phase 1 budget approval. Main concern is the API integration timeline (3-4 weeks vs. 2 weeks estimated). Dave requested a technical scoping session with Sarah and expressed preference for monthly billing."
+}

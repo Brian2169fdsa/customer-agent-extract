@@ -1,1 +1,162 @@
-{}
+{
+  "success": true,
+  "facts": [
+    {
+      "claim": "Acme Corp needs API to handle at least 1000 requests per second at peak",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:04",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["technical", "performance"]
+    },
+    {
+      "claim": "Infrastructure supports up to 2000 RPS on enterprise plan",
+      "category": "Context",
+      "relationship": "Acme Corp",
+      "speaker": "Sarah",
+      "timestamp": "00:06",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["technical", "performance"]
+    },
+    {
+      "claim": "Acme Corp requires all data stored in US-East for data residency compliance",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:08",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["technical", "compliance"]
+    },
+    {
+      "claim": "Acme Corp needs custom webhook support with event filtering and routing",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:11",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["technical", "integration"]
+    },
+    {
+      "claim": "Acme Corp requires OAuth 2.0 with PKCE flow for authentication",
+      "category": "Request",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:21",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["technical", "security"]
+    },
+    {
+      "claim": "Acme Corp has 2 terabytes of historical data requiring migration",
+      "category": "Context",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:29",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["technical", "migration"]
+    },
+    {
+      "claim": "Enterprise tier pricing at $10,000/month for 75 users, $13,500 at 120 users",
+      "category": "Context",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "00:41",
+      "confidence": "High",
+      "sentiment": "Neutral",
+      "tags": ["pricing"]
+    },
+    {
+      "claim": "Dave's CFO approved budget up to $15,000 per month",
+      "category": "Context",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:43",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["budget", "pricing"]
+    },
+    {
+      "claim": "Total package approximately $14,500/month for 75 users plus analytics and reporting add-ons",
+      "category": "Decision",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:51",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["pricing"]
+    },
+    {
+      "claim": "Procurement approval expected in two weeks, targeting mid-March contract signing",
+      "category": "Milestone",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "00:55",
+      "confidence": "Medium",
+      "sentiment": "Neutral",
+      "tags": ["timeline"]
+    },
+    {
+      "claim": "Previous vendor failed on 99.9% SLA promise, actual was 99.5%",
+      "category": "Concern",
+      "relationship": "Acme Corp",
+      "speaker": "Dave",
+      "timestamp": "01:09",
+      "confidence": "High",
+      "sentiment": "Negative",
+      "tags": ["reliability"]
+    },
+    {
+      "claim": "99.95% uptime guarantee with 10% credit per 0.1% shortfall per month",
+      "category": "Commitment",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "01:11",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["reliability", "contract"]
+    },
+    {
+      "claim": "No early termination fees in first year with 90-day notice period",
+      "category": "Context",
+      "relationship": "Acme Corp",
+      "speaker": "Brian",
+      "timestamp": "01:15",
+      "confidence": "High",
+      "sentiment": "Positive",
+      "tags": ["contract"]
+    }
+  ],
+  "action_items": [
+    {
+      "title": "Schedule technical deep-dive with Dave, Mark Johnson, and Lisa Park",
+      "owner": "Sarah",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Send revised enterprise proposal with discussed pricing",
+      "owner": "Brian",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Run pricing through procurement for approval (2 week target)",
+      "owner": "Dave",
+      "priority": "P1",
+      "relationship": "Acme Corp"
+    },
+    {
+      "title": "Begin migration planning in parallel with procurement",
+      "owner": "Brian",
+      "priority": "P2",
+      "relationship": "Acme Corp"
+    }
+  ],
+  "summary": "Extended technical and commercial discussion between Brian, Sarah, and Dave about Acme Corp's Phase 2 enterprise rollout. Key technical requirements include 1000+ RPS, US-East data residency, OAuth 2.0, and custom webhooks. Pricing agreed at approximately $14,500/month (75 users + add-ons) within Dave's $15K/month budget authority. Procurement approval targeted in two weeks for mid-March signing and April 1 start. SLA of 99.95% uptime with financial credits and no early termination fees in year one."
+}
